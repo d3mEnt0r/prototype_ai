@@ -1,0 +1,21 @@
+<%- include('partials/header.ejs') %>
+
+<div style="color: grey">Preview Page</div>
+<div class="page-container1">
+  <div class="banner"></div>
+  <div class="page-container2">
+    <div class="page-container3">
+      <h2><%= eventName %></h2>
+      <p><%= description %></p>
+      <h2>What will you get ?</h2>
+      <p><%= about %></p>
+    </div>
+    <div class="page-container4">
+      <h4>Date - <%= date %></h4>
+      <h4>🕑 <%= time %></h4>
+      <a style="text-decoration: none" href="<%= link %>"><h4>📹 Link</h4></a>
+      <h4>$ <%= price %></h4>
+      <h4>Duration - <%= duration %> min</h4>
+    </div>
+  </div>
+</div>

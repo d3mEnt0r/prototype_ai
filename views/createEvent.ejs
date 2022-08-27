@@ -1,0 +1,36 @@
+<%- include('partials/header.ejs') %>
+    <div style="color: grey">Create an Event</div>
+    <div class="container1">
+        <div class="nav-btn">
+            <a class="back-btn" href="/">Back</a>
+            <a href="/previewPage"><button class="preview-btn">Preview Page</button></a>
+        </div>
+        <h2 style="padding-left: 11%;">Create Event</h2>
+        <form action="/createEvent" method="post">
+            <div class="container2">
+                <div class="container3">
+                    <input class="input" type="text" maxlength="80" placeholder="Event Name" name="eventName" autocomplete="off">
+                    <input class="input" type="text" onfocus="(this.type='file')" placeholder="Banner" id="banner" name="eventBanner">
+                    <input class="input" type="text" maxlength="100" placeholder="Short Description" name="description" autocomplete="off">
+                    <textarea cols="40" rows="7" placeholder="Please describe your service..." name="about"></textarea>
+                </div>
+                <div class="container4">
+                    <input class="input" type="text" placeholder="Choose Language" name="language" list="languages" autocomplete="off">
+                    <datalist id="languages">
+                        <option value="Hindi">Hindi</option>
+                        <option value="English">English</option>
+                    </datalist>
+                    <input class="input" type="number" placeholder="Price { in INR }" name="price" autocomplete="off">
+                    <input class="input" type="text" onfocus="(this.type='time')" placeholder="Time of Commencement" name="time">
+                    <input  class="input" type="number" placeholder="Duration { in minutes }" name="duration">
+                    <input class="input" type="text" onfocus="(this.type='date')" placeholder="Choose Date" name="date">
+                    <input class="input" type="url" placeholder="Event link" name="link" autocomplete="off">
+                </div>
+            </div>
+            <div class="save-div">
+                <button class="save-btn" type="submit">SAVE</button>
+            </div>
+        </form>
+    </div>
+  </body>
+</html>
