@@ -1,0 +1,151 @@
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	height: 100%;
+    background-color: lightgrey;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#outer-container {
+	display: table;
+    margin: 0px 5px 5px 5px;
+	width: auto;
+	height: 95%;
+}
+
+#sidebar {
+	display: table-cell;
+	width: 18%;
+	vertical-align: top;
+    background-color: rgb(62, 61, 61);
+    text-align: center;
+}
+
+#content {
+	display: table-cell;
+	width: 85%;
+	vertical-align: top;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.sidebar_btn{
+    background-color: rgb(249, 39, 39);
+    color: #fff;
+    cursor: pointer;
+    border: 0px;
+    margin: 30px;
+    width: 175px;
+    height: 35px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.add_div{
+    min-height: 50px;
+    width: 15%;
+    display: flex;
+    align-items: center;    
+    justify-content: space-evenly;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.add_btn{
+    min-height: 30px;
+    width: 30px;
+    color: black;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1.5px solid black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.container1{
+    background-color: #fff;
+    margin: 0px 5px 5px 5px;
+    padding: 25px 30px 0px 60px;
+	width: auto;
+	height: 90%;
+}
+.nav-btn{
+    display: flex;
+    justify-content: space-between;
+}
+.back-btn{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.preview-btn{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    border: 2.5px solid rgb(249, 39, 39);
+    border-radius: 20px;
+    padding: 7px;
+    cursor: pointer;
+    color: rgb(249, 39, 39);
+    background-color: #fff;
+    width: 180px;
+}
+
+.input{
+    display: block;
+    width: 300px;
+    height: 25px;
+    border:none;
+    outline:none;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.container2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.save-div{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.save-btn{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    border: 2.5px solid rgb(249, 39, 39);
+    color: #fff;
+    border-radius: 20px;
+    padding: 7px;
+    cursor: pointer;
+    background-color: rgb(249, 39, 39);
+    width: 180px;
+}
+
+.page-container1{
+    margin: 0px 5px 0px 5px;
+    background-color: #fff;
+    height: 95%;
+}
+.banner{
+    height: 40%;
+    background-image: url("https://img.freepik.com/free-vector/blue-technology-digital-banner-design_1017-32257.jpg?w=2000");
+    background-size: 100% 100%;
+}
+.page-container2{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 0px 30px;
+}
+.page-container3{
+    max-width: 40%;
+}
+.page-container4{
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 10px 0px 10px 30px;
+    min-width: 25%;
+}
