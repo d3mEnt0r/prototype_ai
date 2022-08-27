@@ -43,6 +43,6 @@ app.post("/createEvent", function(req, res){
     res.redirect("/previewPage");
 });
 
-app.listen(3000, function(){
+app.listen(process.env.PORT || 3000, function(){
     console.log("Server is up and running!");
 });
